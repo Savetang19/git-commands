@@ -1,12 +1,12 @@
 ## Using Git
 
-[Basics](#basics)    
+[Basics](#basics)  
 [Adding and Changing Things](#adding-and-changing-things)    
-[Undo Changes and Recover Files](#undo-changes-and-recover-files)    
-[Viewing Commits](#viewing-commits)
-[Branch and Merge](#branch-and-merge)
-[Commands for Remotes](remote-commands.md)   
-[Favorites](#favorites)     
+[Undo Changes and Recover Files](#undo-changes-and-recover-files)   
+[Viewing Commits](#viewing-commits)  
+[Branch and Merge](#branch-and-merge)  
+[Commands for Remotes](remote-commands.md)  
+[Favorites](#favorites)  
 [Resources](#resources)
 
 #### Note on Paths
@@ -225,17 +225,15 @@ test/
 
 
 ## Favorites
-```
-- To remove a file from the staging area, use the command "git rm --cached <filename>."
-- To list all the files in current working, use the command "git ls-files"
-- To list all the files in staging area, use the command "git diff --name-only --cached"
-```
 
+- ```To remove a file from the staging area, use the command "git rm --cached <filename>."```
+- ```To list all the files in current working, use the command "git ls-files"```
+- ```To list all the files in staging area, use the command "git diff --name-only --cached"```
 
 ---
 ## Resources
 
-My favorit Git resources: [Bitbucket](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud) for basics of Git cammands.
+My favorit Git resources: [Bitbucket](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud) for basics of Git commands.  
 [Pro Git Online Book][ProGit] Chapters 2 & 3 contain the essentials. Downloadable PDF is also available.     
 [Visual Git Reference](https://marklodato.github.io/visual-git-guide) one page with illustrations of git commands.
 
