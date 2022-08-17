@@ -1,3 +1,6 @@
+#Quick Guide to Git
+
+By Napasakorn Boonkerd
 ## Using Git
 
 [Basics](#basics)  
