@@ -1,12 +1,5 @@
 ## Commands for Remotes
 
-> TODO Write your answers and then remove **all** the TODO comments
-> TODO For answers that are git or shell commands, surround your answer in triple backquotes, like this:
-   ```
-   this is unformatted text
-   delete this example
-   ```
-
 1. List all your remote repositories and show their URLs:
    ```
    git remote -v
