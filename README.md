@@ -1,4 +1,4 @@
-#Quick Guide to Git
+# Quick Guide to Git
 
 By Napasakorn Boonkerd
 ## Using Git
