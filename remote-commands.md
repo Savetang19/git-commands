@@ -18,8 +18,7 @@
    fatal:  The current branch dev-foo has no upstream branch. 
    ```
    Explain this error.
-   > TODO Since you are writing an explanation (not shell commands), write your answer in lines beginning with `>` like this one. The text will be formatted and may include Markdown.
-
+   > This error explained that it could not locate the upstream branch as a remote tracking branch with the name "dev-foo." 
 
 4. The command to push `dev-foo` to `origin` as a **new remote branch** on `origin` is:
    ```
@@ -39,17 +38,15 @@
    - You edit `README.md` on Github using Github's web interface and save the changes.
    - On your local machine, you edit README.md, commit the changes locally
    
-   What happens when you `push` your changes?    
+   What happens when you `push` your changes?
    Explain why and how to fix it.
-   ```
-   
-   ```
+   > It will show an error on the terminal because the repository and our local repo have some conflicts and Git requires us to merge the differences before we push anything to prevent us from overwriting someone's work.    
+   > To fix it, we must use `git fetch` to update our local repo and `git merge` to resolve the conflict(s). 
 
 
-
-7. The command to change the URL of the remote "origin" to a new URL, such as `https://hostname/newuser/new-repo-name`, is:
+8. The command to change the URL of the remote "origin" to a new URL, such as `https://hostname/newuser/new-repo-name`, is:
    ```
-   TODO your answer
+   git remote set-url origin https://hostname/newuser/new-repo-name
    ```
    This situation occurs when:
    - you change the name of a repo on Github
@@ -60,11 +57,13 @@
 
 8. To create a *second* remote repository for your local repo, the command to add a remote named "bitbucket" with the URL "https://bitbucket.org/your-username/git-commands" is:
    ```
-   todo your answer
+   git remote add bitbucket https://bitbucket.org/your-username/git-commands
    ```
    - Note: you must **create** an empty repo on Bitbucket. This command just adds it as a remote, it won't create the remote repo.
 
 
 9. After adding the remote named `bitbucket`, the command to push your master branch to `bitbucket` is:
-
+   ```
+   git push -u bitbucket master
+   ```
 
